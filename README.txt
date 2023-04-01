@@ -1,3 +1,11 @@
+# A propos
+Outlive The Blank est un projet universitaire réalisé à la première session de la maîtrise en Informatique Cheminement Jeu Vidéo à l’Université de Sherbrooke, à l’automne 2022.. Il s’agit d’un projet réalisé dans le cadre du cours d’Infographie pour le Jeu Vidéo et du cours de Mathématiques et Physique appliqués au Jeu Vidéo.
+Le projet a été effectué sur environ 6 semaines, à temps partiel, en équipe de 5 étudiants : Arthur Lewis, Alistair Kenny, Romain Berthon, Alexandre Dubuc et moi-même, Titouan Bricout. Le projet était encadré par Mykel Leclerc Brisson.
+
+Aucun moteur commercial n’a été utilisé, le jeu est réalisé directement à partir de DirectX 11 (et PhysX pour la partie physique).
+Ma contribution principale au projet porte sur le pipeline de shaders, la gestion du transfert en mémoire vidéo, et surtout les lumières et les ombres (avec notamment l’utilisation de shadow mapping).
+
+
 # Installation
 
 Pour partir le projet, deziper, ouvrir la solution, choisir Debug ou Release, partir le projet
@@ -10,7 +18,7 @@ Pour partir le projet, deziper, ouvrir la solution, choisir Debug ou Release, pa
 * **"S"** pour reculer
 * **"A"** pour tourner à gauche
 * **"D"** tourner à droite
-* **"Espace"** pour saute
+* **"Espace"** pour sauter
 
 ## Déplacements aérien
 
