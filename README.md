@@ -5,6 +5,8 @@ Le projet a été effectué sur environ 6 semaines, à temps partiel, en équipe
 Aucun moteur commercial n’a été utilisé, le jeu est réalisé directement à partir de DirectX 11 (et PhysX pour la partie physique).
 Ma contribution principale au projet porte sur le pipeline de shaders, la gestion du transfert en mémoire vidéo, et surtout les lumières et les ombres (avec notamment l’utilisation de shadow mapping).
 
+#Videos
+Une vidéo du jeu est observable ici : https://drive.google.com/drive/folders/14duMo2Us_op7HZ7xnXnKRrGloFYCXHzi?usp=share_link
 
 # Installation
 
