@@ -1,0 +1,66 @@
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl originSG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl sb_backSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Epic_BlueSunset_Cam_1_Back-Z.DDS
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 18.00
+newmtl sb_downSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Epic_BlueSunset_Cam_5_Down-Y.DDS
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 18.00
+newmtl sb_frontSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Epic_BlueSunset_Cam_0_Front+Z.DDS
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 18.00
+newmtl sb_leftSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Epic_BlueSunset_Cam_2_Left+X.DDS
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 18.00
+newmtl sb_rightSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Epic_BlueSunset_Cam_3_Right-X.DDS
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 18.00
+newmtl sb_upSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Epic_BlueSunset_Cam_4_Up+Y.DDS
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 18.00

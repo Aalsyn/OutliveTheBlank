@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{9d854d77-6622-457e-b6e6-7ac96d751df3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\engine3d">
+      <UniqueIdentifier>{689e21ff-e664-44e0-915e-581ca8d7f944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\engine3d">
+      <UniqueIdentifier>{7cfe98d3-8e61-45f7-a3d5-d185350c6a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\hmap2mesh">
+      <UniqueIdentifier>{868f1c11-851b-4bcd-b38c-7cc837e445ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\hmap2mesh">
+      <UniqueIdentifier>{689e5b70-4cb0-43c7-a02a-6ad90627aaa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\DDSTextureLoader">
+      <UniqueIdentifier>{b5b82128-c5a7-4c3a-b059-b40ef956942e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\DDSTextureLoader">
+      <UniqueIdentifier>{76c839e9-3f9e-4740-9d77-d6db39d6b7be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\engine3d\texture">
+      <UniqueIdentifier>{689c46c9-0b91-4549-9c52-fe98723f5661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\engine3d\texture">
+      <UniqueIdentifier>{b560c5f0-76d0-4933-a25c-777d9a317eac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\objectRenderInstance">
+      <UniqueIdentifier>{549af354-0f25-4fc9-b61a-aca91b4f3125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\objectMaterialInstance">
+      <UniqueIdentifier>{f97806fa-c010-428d-b073-d104fcfac1ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\engine3d\base">
+      <UniqueIdentifier>{cfa60aed-3e38-47d8-9a84-3c6099e21f5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\engine3d\base">
+      <UniqueIdentifier>{474a957b-d25a-4668-9c67-9491fc4f2972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\FBXLoader">
+      <UniqueIdentifier>{0e67d50f-ea97-4fd3-a000-69a7987577bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\gameObject">
+      <UniqueIdentifier>{23f96a3e-b858-4dc6-ae05-4cfd4ed3f02d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\objectLight">
+      <UniqueIdentifier>{51a547d5-7273-40ff-86f3-0a438cc58c46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\controller">
+      <UniqueIdentifier>{5738255f-f3ca-4201-a870-f42ed0b87e40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\controller">
+      <UniqueIdentifier>{d9119324-6dbb-4ac9-a779-7437671bca0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\object">
+      <UniqueIdentifier>{2f04087b-9bd4-4faf-ad37-243e5d312414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\object\objectInstance">
+      <UniqueIdentifier>{50eb2f47-6222-49a8-9a70-bc69a4b51d24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\object\objectLight">
+      <UniqueIdentifier>{016a9165-2757-49fe-ac0e-f82edab01f91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\object\objectMaterialInstance">
+      <UniqueIdentifier>{005b265e-e9a1-4786-b63d-590a77ffeb59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\object\objectRenderInstance">
+      <UniqueIdentifier>{58715402-a858-4e0d-85a8-d8b620fa7e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\object\gameObject">
+      <UniqueIdentifier>{0959633e-743f-4b9e-91ba-5105a67912dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\engine3d\physics">
+      <UniqueIdentifier>{7d55ea55-d407-4286-9205-29348da85075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\engine3d\physics">
+      <UniqueIdentifier>{8f80bb96-3921-4a99-b81f-534bbd4a3d05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\object\DeadZone">
+      <UniqueIdentifier>{80a78b2e-0b2a-490d-9e12-34333f41cd61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\DeadZone">
+      <UniqueIdentifier>{db42b5fb-9637-4aeb-8a34-8ff622e20411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\monster">
+      <UniqueIdentifier>{33bb43c9-e1a0-4353-a0fa-6a278f296bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\monster">
+      <UniqueIdentifier>{288ac27e-f246-487f-84d4-184ae7ccfddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\MeshLoader">
+      <UniqueIdentifier>{9a31f699-068a-40da-b71a-d4ee7ca8c291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\MeshLoader">
+      <UniqueIdentifier>{94d63f8b-3772-4e04-aeff-a564c8c13acf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\hmap2mesh\FileHandler.h">
+      <Filter>Fichiers d%27en-tête\hmap2mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="include\hmap2mesh\TerrainHandler.h">
+      <Filter>Fichiers d%27en-tête\hmap2mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="include\hmap2mesh\Terrain.h">
+      <Filter>Fichiers d%27en-tête\hmap2mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="include\hmap2mesh\SommetTerrain.h">
+      <Filter>Fichiers d%27en-tête\hmap2mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DDSTextureLoader\DDSTextureLoader.h">
+      <Filter>Fichiers d%27en-tête\DDSTextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\Texture.h">
+      <Filter>Fichiers d%27en-tête\engine3d\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\GestionnaireDeTextures.h">
+      <Filter>Fichiers d%27en-tête\engine3d\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameObject\render\MeshInstanceManager.h">
+      <Filter>Fichiers d%27en-tête\object\objectRenderInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameObject\material\MaterialInstance.h">
+      <Filter>Fichiers d%27en-tête\object\objectMaterialInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameObject\render\MeshInstance.h">
+      <Filter>Fichiers d%27en-tête\object\objectRenderInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameObject\material\MaterialData.h">
+      <Filter>Fichiers d%27en-tête\object\objectMaterialInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\chargeur.h">
+      <Filter>Fichiers d%27en-tête\MeshLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\ChargeurOBJ.h">
+      <Filter>Fichiers d%27en-tête\MeshLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\Bloc.h">
+      <Filter>Fichiers d%27en-tête\engine3d\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\BlocEffet1.h">
+      <Filter>Fichiers d%27en-tête\engine3d\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\Camera.h">
+      <Filter>Fichiers d%27en-tête\engine3d\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\d3dx11effect.h">
+      <Filter>Fichiers d%27en-tête\engine3d\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\d3dxGlobal.h">
+      <Filter>Fichiers d%27en-tête\engine3d\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\DIManipulateur.h">
+      <Filter>Fichiers d%27en-tête\engine3d\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\dispositif.h">
+      <Filter>Fichiers d%27en-tête\engine3d\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\dispositifD3D11.h">
+      <Filter>Fichiers d%27en-tête\engine3d\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\Horloge.h">
+      <Filter>Fichiers d%27en-tête\engine3d\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\InfoDispositif.h">
+      <Filter>Fichiers d%27en-tête\engine3d\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\Moteur.h">
+      <Filter>Fichiers d%27en-tête\engine3d\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\MoteurWindows.h">
+      <Filter>Fichiers d%27en-tête\engine3d\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\objet3d.h">
+      <Filter>Fichiers d%27en-tête\engine3d\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\PetitMoteur3D.h">
+      <Filter>Fichiers d%27en-tête\engine3d\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\resource.h">
+      <Filter>Fichiers d%27en-tête\engine3d\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\Singleton.h">
+      <Filter>Fichiers d%27en-tête\engine3d\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\sommetbloc.h">
+      <Filter>Fichiers d%27en-tête\engine3d\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\stdafx.h">
+      <Filter>Fichiers d%27en-tête\engine3d\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\util.h">
+      <Filter>Fichiers d%27en-tête\engine3d\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameObject\GameObject.h">
+      <Filter>Fichiers d%27en-tête\object\objectInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameObject\render\ObjectRenderInstance.h">
+      <Filter>Fichiers d%27en-tête\object\objectRenderInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameObject\render\GeometryInitData.h">
+      <Filter>Fichiers d%27en-tête\object\objectRenderInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameObject\ObjectPhysicalInstance.h">
+      <Filter>Fichiers d%27en-tête\object\gameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\chargeur.h">
+      <Filter>Fichiers d%27en-tête\engine3d</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\ChargeurOBJ.h">
+      <Filter>Fichiers d%27en-tête\engine3d</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameObject\ObjectPhysicalInitData.h">
+      <Filter>Fichiers d%27en-tête\object\gameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameObject\light\Light.h">
+      <Filter>Fichiers d%27en-tête\object\objectLight</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameObject\render\ShaderBuffers.h">
+      <Filter>Fichiers d%27en-tête\object\objectRenderInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controller\InputController.h">
+      <Filter>Fichiers d%27en-tête\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controller\Vehicule.h">
+      <Filter>Fichiers d%27en-tête\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controller\cameraController.h">
+      <Filter>Fichiers d%27en-tête\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controller\Converter.h">
+      <Filter>Fichiers d%27en-tête\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\CollisionHandler.h">
+      <Filter>Fichiers d%27en-tête\engine3d\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameObject\render\ObjectShaderInstance.h">
+      <Filter>Fichiers d%27en-tête\object\objectRenderInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameObject\render\ShaderInstanceManager.h">
+      <Filter>Fichiers d%27en-tête\object\objectRenderInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameObject\render\ObjectShaderLoader.h">
+      <Filter>Fichiers d%27en-tête\object\objectRenderInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Controller\UIController.h">
+      <Filter>Fichiers d%27en-tête\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\AfficheurTexte.h">
+      <Filter>Fichiers d%27en-tête\engine3d\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\AfficheurSprite.h">
+      <Filter>Fichiers d%27en-tête\engine3d\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameObject\render\MeshShaderLoader.h">
+      <Filter>Fichiers d%27en-tête\object\objectRenderInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameObject\DeadZone\DeadZone.h">
+      <Filter>Fichiers d%27en-tête\object\DeadZone</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameObject\DeadZone\TriggerZoneCave.h">
+      <Filter>Fichiers d%27en-tête\object\DeadZone</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Controller\TimeController.h">
+      <Filter>Fichiers d%27en-tête\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Controller\SoundController.h">
+      <Filter>Fichiers d%27en-tête\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controller\GameStateManager.h">
+      <Filter>Fichiers d%27en-tête\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="include\monster\NodePath.h">
+      <Filter>Fichiers d%27en-tête\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\ChargeurTerrain.h">
+      <Filter>Fichiers d%27en-tête\MeshLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine3d\ChargeurBillBoard.h">
+      <Filter>Fichiers d%27en-tête\MeshLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="include\monster\Monstre.h">
+      <Filter>Fichiers d%27en-tête\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameObject\DeadZone\TriggerZoneTp.h">
+      <Filter>Fichiers d%27en-tête\object\DeadZone</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameObject\render\RenderTexture.h">
+      <Filter>Fichiers d%27en-tête\object\objectRenderInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameObject\render\DepthShaderLoader.h">
+      <Filter>Fichiers d%27en-tête\object\objectRenderInstance</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PetitMoteur3D.ico">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="small.ico">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PetitMoteur3D.rc">
+      <Filter>Fichiers de ressources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="MiniPhong.phl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="MiniPhong.vhl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="ps1.phl" />
+    <FxCompile Include="vs1.vhl" />
+    <FxCompile Include="BasicTextureShader.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="depthShader.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="ShadowTextureShader.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="HeightMapShader.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="BillBoardTextureShader.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\hmap2mesh\Terrainhandler.cpp">
+      <Filter>Fichiers sources\hmap2mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hmap2mesh\SommetTerrain.cpp">
+      <Filter>Fichiers sources\hmap2mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hmap2mesh\FileHandler.cpp">
+      <Filter>Fichiers sources\hmap2mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DDSTextureLoader\DDSTextureLoader.cpp">
+      <Filter>Fichiers sources\DDSTextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine3d\Texture.cpp">
+      <Filter>Fichiers sources\engine3d\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine3d\GestionnaireDeTextures.cpp">
+      <Filter>Fichiers sources\engine3d\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hmap2mesh\Terrain.cpp">
+      <Filter>Fichiers sources\hmap2mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameObject\render\MeshInstanceManager.cpp">
+      <Filter>Fichiers sources\objectRenderInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameObject\material\MaterialInstance.cpp">
+      <Filter>Fichiers sources\objectMaterialInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameObject\material\MaterialData.cpp">
+      <Filter>Fichiers sources\objectMaterialInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameObject\render\MeshInstance.cpp">
+      <Filter>Fichiers sources\objectRenderInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine3d\ChargeurOBJ.cpp">
+      <Filter>Fichiers sources\MeshLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine3d\Bloc.cpp">
+      <Filter>Fichiers sources\engine3d\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine3d\BlocEffet1.cpp">
+      <Filter>Fichiers sources\engine3d\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine3d\Camera.cpp">
+      <Filter>Fichiers sources\engine3d\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine3d\DIManipulateur.cpp">
+      <Filter>Fichiers sources\engine3d\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine3d\dispositif.cpp">
+      <Filter>Fichiers sources\engine3d\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine3d\dispositifD3D11.cpp">
+      <Filter>Fichiers sources\engine3d\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine3d\Horloge.cpp">
+      <Filter>Fichiers sources\engine3d\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine3d\InfoDispositif.cpp">
+      <Filter>Fichiers sources\engine3d\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine3d\Moteur.cpp">
+      <Filter>Fichiers sources\engine3d\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine3d\MoteurWindows.cpp">
+      <Filter>Fichiers sources\engine3d\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine3d\PetitMoteur3D.cpp">
+      <Filter>Fichiers sources\engine3d\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine3d\sommetbloc.cpp">
+      <Filter>Fichiers sources\engine3d\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine3d\stdafx.cpp">
+      <Filter>Fichiers sources\engine3d\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameObject\render\ObjectRenderInstance.cpp">
+      <Filter>Fichiers sources\objectRenderInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameObject\render\GeometryInitData.cpp">
+      <Filter>Fichiers sources\objectRenderInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameObject\ObjectPhysicalInstance.cpp">
+      <Filter>Fichiers sources\gameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine3d\ChargeurOBJ.cpp">
+      <Filter>Fichiers sources\engine3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameObject\ObjectPhysicalInitData.cpp">
+      <Filter>Fichiers sources\gameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameObject\light\Light.cpp">
+      <Filter>Fichiers sources\objectLight</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controller\InputController.cpp">
+      <Filter>Fichiers sources\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controller\Vehicule.cpp">
+      <Filter>Fichiers sources\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controller\cameraController.cpp">
+      <Filter>Fichiers sources\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine3d\CollisionHandler.cpp">
+      <Filter>Fichiers sources\engine3d\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controller\Converter.cpp">
+      <Filter>Fichiers sources\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameObject\render\ObjectShaderInstance.cpp">
+      <Filter>Fichiers sources\objectRenderInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameObject\render\ShaderInstanceManager.cpp">
+      <Filter>Fichiers sources\objectRenderInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameObject\render\ObjectShaderLoader.cpp">
+      <Filter>Fichiers sources\objectRenderInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controller\UIController.cpp">
+      <Filter>Fichiers sources\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine3d\AfficheurTexte.cpp">
+      <Filter>Fichiers sources\engine3d\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine3d\AfficheurSprite.cpp">
+      <Filter>Fichiers sources\engine3d\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameObject\render\MeshShaderLoader.cpp">
+      <Filter>Fichiers sources\objectRenderInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameObject\DeadZone\DeadZone.cpp">
+      <Filter>Fichiers sources\DeadZone</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameObject\DeadZone\TriggerZoneCave.cpp">
+      <Filter>Fichiers sources\DeadZone</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controller\SoundController.cpp">
+      <Filter>Fichiers sources\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controller\GameStateManager.cpp">
+      <Filter>Fichiers sources\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="src\monster\NodePath.cpp">
+      <Filter>Fichiers sources\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="src\monster\Monstre.cpp">
+      <Filter>Fichiers sources\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameObject\DeadZone\TriggerZoneTp.cpp">
+      <Filter>Fichiers sources\DeadZone</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameObject\render\RenderTexture.cpp">
+      <Filter>Fichiers sources\objectRenderInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameObject\render\DepthShaderLoader.cpp">
+      <Filter>Fichiers sources\objectRenderInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine3d\ChargeurTerrain.cpp">
+      <Filter>Fichiers sources\MeshLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine3d\ChargeurBillBoard.cpp">
+      <Filter>Fichiers sources\MeshLoader</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

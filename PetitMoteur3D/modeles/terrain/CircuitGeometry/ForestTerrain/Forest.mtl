@@ -1,0 +1,51 @@
+newmtl CircleMatSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Circle.dds
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl CurveMatSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Curve.dds
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl DownMatSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Down.dds
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl InsideMatSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Inside.dds
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl WallMatSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Wall.dds
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl initialShadingGroup
+illum 4
+Kd 0.61 0.54 0.09
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00

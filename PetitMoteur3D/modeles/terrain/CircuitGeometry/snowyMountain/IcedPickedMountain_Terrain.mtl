@@ -1,0 +1,171 @@
+newmtl IPM_BridgesSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd IPM_Terrain_IPM_Bridges_d.DDS
+bump  -bm 1 IPM_Terrain_IPM_Bridges_n.DDS
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks IPM_Terrain_IPM_Bridges_s.DDS
+Ns 18.00
+newmtl IPM_Isle1_CaveSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd IPM_Terrain_IPM_Isle1_Cave_d.DDS
+bump  -bm -0.174825 IPM_Terrain_IPM_Isle1_Cave_n.DDS
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks IPM_Terrain_IPM_Isle1_Cave_s.DDS
+Ns 18.00
+newmtl IPM_Isle1_Terrain_Part0
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd IPM_Terrain_IPM_Isle1_Terrain_Part0_d.DDS
+bump  -bm 1.048951 IPM_Terrain_IPM_Isle1_Terrain_Part0_n.DDS
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl IPM_Isle1_Terrain_Part2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd IPM_Terrain_IPM_Isle1_Terrain_Part2_d.DDS
+bump  -bm -1 IPM_Terrain_IPM_Isle1_Terrain_Part2_n.DDS
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks IPM_Terrain_IPM_Isle1_Terrain_Part2_s.DDS
+Ns 18.00
+newmtl IPM_Isle1_Terrain_Part3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd IPM_Terrain_IPM_Isle1_Terrain_Part3_d.DDS
+bump  -bm 1.085627 IPM_Terrain_IPM_Isle1_Terrain_Part3_n.DDS
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks IPM_Terrain_IPM_Isle1_Terrain_Part3_s.DDS
+Ns 18.00
+newmtl IPM_Isle2_Cave_CeilingSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd IPM_Terrain_IPM_Isle2_Cave_Ceiling_s.DDS
+bump  -bm -1 IPM_Terrain_IPM_Isle2_Cave_Ceiling_n.DDS
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks IPM_Terrain_IPM_Isle2_Cave_Ceiling_d.DDS
+Ns 18.00
+newmtl IPM_Isle2_Cave_ExitSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd IPM_Terrain_IPM_Isle2_Cave_Exit_d.DDS
+bump  -bm -1 IPM_Terrain_IPM_Isle2_Cave_Exit_n.DDS
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks IPM_Terrain_IPM_Isle2_Cave_Exit_s.DDS
+Ns 18.00
+newmtl IPM_Isle2_Cave_TerrainSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd IPM_Terrain_IPM_Isle2_Cave_Terrain_d.DDS
+bump  -bm -1 IPM_Terrain_IPM_Isle2_Cave_Terrain_n.DDS
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks IPM_Terrain_IPM_Isle2_Cave_Terrain_s.DDS
+Ns 18.00
+newmtl IPM_Isle2_CliffSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd IPM_Terrain_IPM_Isle2_Cliff_d.DDS
+bump  -bm -1 IPM_Terrain_IPM_Isle2_Cliff_n.DDS
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks IPM_Terrain_IPM_Isle2_Cliff_s.DDS
+Ns 18.00
+newmtl IPM_Isle2_Entry_CliffSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd IPM_Terrain_IPM_Isle2_Entry_Cliff_d.DDS
+bump  -bm -1 IPM_Terrain_IPM_Isle2_Entry_Cliff_n.DDS
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks IPM_Terrain_IPM_Isle2_Entry_Cliff_s.DDS
+Ns 18.00
+newmtl IPM_Isle2_IcedlakeSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd IPM_Terrain_lambert4_d.DDS
+map_Ka IPM_Terrain_lambert4_d.DDS
+bump  -bm 1 IPM_Terrain_lambert4_n.DDS
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks IPM_Terrain_lambert4_s.DDS
+Ns 18.00
+newmtl IPM_Isle2_back
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd IPM_Terrain_IPM_Isle2_back_d.DDS
+bump  -bm -1 IPM_Terrain_IPM_Isle2_back_n.DDS
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks IPM_Terrain_IPM_Isle2_back_s.DDS
+Ns 18.00
+newmtl IPM_Isle2_entrySG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd IPM_Terrain_IPM_Isle2_entry_d.DDS
+bump  -bm -1 IPM_Terrain_IPM_Isle2_entry_n.DDS
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks IPM_Terrain_IPM_Isle2_entry_s.DDS
+Ns 18.00
+newmtl M_IPM_Isle1_Cliff_EntrySG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd IPM_Terrain_IPM_Isle1_Cliff_Entry_d.DDS
+bump  -bm -1 IPM_Terrain_IPM_Isle1_Cliff_Entry_n.DDS
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks IPM_Terrain_IPM_Isle1_Cliff_Entry_s.DDS
+Ns 18.00
+newmtl M_IPM_Isle1_Terrain_Part1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd IPM_Terrain_IPM_Isle1_Terrain_Part1_d.DDS
+bump  -bm -1 IPM_Terrain_IPM_Isle1_Terrain_Part1_n.DDS
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks IPM_Terrain_IPM_Isle1_Terrain_Part1_s.DDS
+Ns 18.00
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00

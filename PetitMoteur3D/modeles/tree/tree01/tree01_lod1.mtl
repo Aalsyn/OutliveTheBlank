@@ -1,0 +1,14 @@
+newmtl mat_leafs_1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd mat_leafs.dds
+Ni 1.00
+newmtl mat_woodchunk_1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd mat_woodchunk.dds
+Ni 1.00
