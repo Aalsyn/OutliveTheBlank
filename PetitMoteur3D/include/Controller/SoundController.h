@@ -1,8 +1,4 @@
 #pragma once
-#include <xaudio2.h>
-#include <memory>
-#include <map>
-#include <string>
 #include "Singleton.h"
 
 #pragma region preparation_analyse_audio

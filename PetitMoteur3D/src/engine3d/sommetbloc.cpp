@@ -1,5 +1,5 @@
 
-#include "StdAfx.h"
+#include <stdafx.h>
 #include "sommetbloc.h"
 
 namespace PM3D

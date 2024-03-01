@@ -1,5 +1,5 @@
 #include "GameObject.h"
-#include "objet3d.h"
+//#include "objet3d.h"
 #include "NodePath.h"
 
 #ifndef monstre_h

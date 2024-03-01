@@ -1,6 +1,6 @@
 // PetitMoteur3D.cpp : définit le point d'entrée pour l'application.
 //
-#include "stdafx.h"
+#include <stdafx.h>
 #include "PetitMoteur3D.h"
 #include "MoteurWindows.h"
 

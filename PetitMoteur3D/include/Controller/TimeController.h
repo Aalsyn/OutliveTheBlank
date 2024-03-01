@@ -1,9 +1,8 @@
+#include <stdafx.h>
 #include "Singleton.h"
-#include <string>
-#include <chrono>
 
-using namespace std;
-using namespace chrono;
+using namespace std::chrono;
+//using namespace chrono;
 
 #ifndef timeController_h
 #define timeController_h

@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+#include <stdafx.h>
 #include "resource.h"
 #include "DispositifD3D11.h"
 #include "Util.h"

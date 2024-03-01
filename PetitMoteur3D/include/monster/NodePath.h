@@ -1,6 +1,3 @@
-#include <vector>
-#include "PxPhysicsAPI.h"
-
 #ifndef nodePath_h
 #define nodePath_h
 
@@ -22,7 +19,7 @@ public:
 	~SubPath() = default;
 	std::vector<PathNode>& get();
 	const PathNode& getNode(const int& index);
-	const int& getSize();
+	const int getSize();
 };
 
 class Path {

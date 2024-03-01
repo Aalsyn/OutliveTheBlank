@@ -1,9 +1,7 @@
 #pragma once
 
 #include "chargeur.h"
-#include <string>
-#include <fstream>
-#include <sstream>  
+
 
 using namespace DirectX;
 

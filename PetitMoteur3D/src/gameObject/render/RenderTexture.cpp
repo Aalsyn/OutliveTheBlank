@@ -1,3 +1,5 @@
+#include <stdafx.h>
+
 #include "RenderTexture.h"
 #include "util.h"
 #include "Moteur.h"

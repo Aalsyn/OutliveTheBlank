@@ -1,6 +1,5 @@
 #pragma once
-#include <DirectXMath.h>
-#include <string>
+
 using namespace DirectX;
 
 enum LightType {

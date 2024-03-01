@@ -2,8 +2,6 @@
 #include "MeshInstance.h"
 #include "MeshInstanceManager.h"
 #include "GeometryInitData.h"
-#include "PxPhysicsAPI.h"
-#include <map>
 
 
 class CObjectRenderInstance : public CObjet3D

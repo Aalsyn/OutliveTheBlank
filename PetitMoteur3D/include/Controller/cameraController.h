@@ -15,7 +15,7 @@ private:
 	static constexpr float fastFOV = 0.93f * baseFOV;
 	float FOVSpeedMin;
 	float FOVSpeedMax;
-	DirectX::XMVECTOR CameraController::getNewPosition(const XMVECTOR& pos, const XMVECTOR& dir);
+	DirectX::XMVECTOR getNewPosition(const XMVECTOR& pos, const XMVECTOR& dir);
 	DirectX::XMVECTOR getNewDirection(const XMVECTOR& pos,const DirectX::XMVECTOR& dir);
 	void FastFOV();
 	void BaseFOV();

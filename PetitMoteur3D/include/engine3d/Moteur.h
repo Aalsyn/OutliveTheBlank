@@ -1,14 +1,6 @@
 #pragma once
 #include "Singleton.h"
 #include "dispositif.h"
-
-
-#include <string>
-#include <codecvt>
-#include <locale>
-#include <chrono>
-#include <vector>
-
 #include "CollisionHandler.h"
 #include "GestionnaireDeTextures.h"
 #include "MeshInstanceManager.h"
@@ -813,7 +805,7 @@ namespace PM3D
 			float yscaling = 1.0f;
 			float xzscaling = 0.505f;
 			ListeScene.push_back(std::make_unique<GameObject>(
-				XMFLOAT4(9.1429 * xzscaling, 5.660f* yscaling, 9.1429 * xzscaling, 1.0f), XMFLOAT4(-1365.499f, 30.0f+25.0f, 0.0f, 0.0f), XMFLOAT4(0.0f, 0.0f, 0.0f, 0.0f),
+				XMFLOAT4(9.1429f * xzscaling, 5.660f* yscaling, 9.1429f * xzscaling, 1.0f), XMFLOAT4(-1365.499f, 30.0f+25.0f, 0.0f, 0.0f), XMFLOAT4(0.0f, 0.0f, 0.0f, 0.0f),
 				GeometryInitData
 				(
 					{

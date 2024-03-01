@@ -1,5 +1,4 @@
-
-#include "stdafx.h"
+#include <stdafx.h>
 #include "strsafe.h"
 #include "dispositifd3d11.h"
 #include "Texture.h"

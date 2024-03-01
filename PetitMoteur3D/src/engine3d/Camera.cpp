@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include <stdafx.h>
 #include "MoteurWindows.h"
 #include "Camera.h"
 

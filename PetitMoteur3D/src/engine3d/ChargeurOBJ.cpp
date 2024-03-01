@@ -1,6 +1,6 @@
-#include "StdAfx.h"
+#include <stdafx.h>
 #include "ChargeurOBJ.h"
-#include <resource.h>
+#include "resource.h"
 
 namespace
 {

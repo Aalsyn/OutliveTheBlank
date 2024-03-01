@@ -6,6 +6,7 @@
 #pragma once
 #define DIRECTINPUT_VERSION 0x0800
 #define WIN32_LEAN_AND_MEAN		// Exclure les en-têtes Windows rarement utilisés
+//#define _HAS_STD_BYTE 0
 // Fichiers d'en-tête Windows :
 #include <windows.h>
 
@@ -24,6 +25,11 @@
 #include <memory>
 #include <string>
 #include <vector>
+#include <map>
+#include <chrono>
+#include <codecvt>
+#include <locale>
+
 
 // TODO : faites référence ici aux en-têtes supplémentaires nécessaires au programme
 #define _XM_NO_INTRINSICS_
@@ -31,5 +37,8 @@
 #include <DirectXMath.h>
 #include <d3dcompiler.h>
 #include "d3dx11effect.h"
-
 #include <dinput.h>
+#include <PxPhysicsAPI.h>
+#include <PxSimulationEventCallback.h>
+#include <opencv2/opencv.hpp>
+#include <xaudio2.h>

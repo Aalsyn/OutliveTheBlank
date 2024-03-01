@@ -1,5 +1,6 @@
+#include <stdafx.h>
 #include "CollisionHandler.h"
-#include <ObjectPhysicalInstance.h>
+#include "ObjectPhysicalInstance.h"
 
 PxFilterFlags SimpleFilterShader(
 	PxFilterObjectAttributes attributes0, PxFilterData ,

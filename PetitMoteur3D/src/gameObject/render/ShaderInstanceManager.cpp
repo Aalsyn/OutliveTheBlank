@@ -1,3 +1,4 @@
+#include <stdafx.h>
 #include "ShaderInstanceManager.h"
 
 using namespace PM3D;

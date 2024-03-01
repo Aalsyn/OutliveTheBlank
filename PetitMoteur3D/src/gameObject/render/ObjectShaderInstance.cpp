@@ -1,3 +1,5 @@
+#include <stdafx.h>
+
 #include "ObjectShaderInstance.h"
 #include "util.h"
 #include "resource.h"

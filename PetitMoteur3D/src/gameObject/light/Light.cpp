@@ -1,2 +1,2 @@
-#include "stdafx.h"
-#include "light/Light.h"
+#include <stdafx.h>
+#include "Light.h"

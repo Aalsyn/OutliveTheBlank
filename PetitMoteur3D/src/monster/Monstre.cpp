@@ -1,10 +1,10 @@
-#include "stdafx.h"
+#include <stdafx.h>
 #include "Monstre.h"
 #include "MoteurWindows.h"
 
 
 using namespace physx;
-using namespace std;
+//using namespace std;
 
 Monstre::Monstre(
 	XMFLOAT4  scale,

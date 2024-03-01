@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+#include <stdafx.h>
 #include "Terrain.h"
 #include "util.h"
 #include "DispositifD3D11.h"

@@ -1,5 +1,5 @@
+#include <stdafx.h>
 #include "TriggerZoneCave.h"
-#include "stdafx.h"
 #include "MoteurWindows.h"
 
 void TriggerZoneCave::onTrigger(PxActor*)

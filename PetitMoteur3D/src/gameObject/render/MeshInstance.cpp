@@ -1,19 +1,19 @@
+#include <stdafx.h>
 
-#include "StdAfx.h"
-#include "MeshInstance.h"
-#include "util.h"
-#include "DispositifD3D11.h"
-#include "resource.h"
-#include "MoteurWindows.h"
-#include "GestionnaireDeTextures.h"
 #include "chargeur.h"
+#include "ChargeurBillBoard.h"
 #include "chargeurObj.h"
+#include "ChargeurTerrain.h"
+#include "DispositifD3D11.h"
 #include "GeometryInitData.h"
+#include "GestionnaireDeTextures.h"
+#include "MeshInstance.h"
+#include "MoteurWindows.h"
+#include "resource.h"
 #include "ShaderBuffers.h"
 #include "ShaderInstanceManager.h"
+#include "util.h"
 #include <commdlg.h>
-#include <ChargeurTerrain.h>
-#include <ChargeurBillBoard.h>
 
 
 namespace PM3D

@@ -9,14 +9,14 @@ public:
 	CDIManipulateur();
 	~CDIManipulateur();
 
-	bool CDIManipulateur::Init(HINSTANCE hInstance, HWND hWnd);
+	bool Init(HINSTANCE hInstance, HWND hWnd);
 	void StatutClavier();
 	bool ToucheAppuyee(UINT touche) const;
 	void SaisirEtatSouris();
 
 	const DIMOUSESTATE& EtatSouris() {
 		return mouseState; }
-	POINT CDIManipulateur::GetMousePosition()
+	POINT GetMousePosition()
 	{
 		POINT p{};
 		GetCursorPos(&p);

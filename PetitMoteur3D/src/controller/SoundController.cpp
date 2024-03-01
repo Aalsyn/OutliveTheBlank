@@ -1,5 +1,6 @@
+#include <stdafx.h>
 #include "SoundController.h"
-using namespace std;
+//using namespace std;
 
 
 namespace PM3D
@@ -103,7 +104,7 @@ namespace PM3D
 
     }
 
-    void SoundController::createMySourceVoice(const char* path, string voiceName, int loop = 0) {
+    void SoundController::createMySourceVoice(const char* path, std::string voiceName, int loop = 0) {
 
         HRESULT hr;
 
@@ -172,7 +173,7 @@ namespace PM3D
             throw SongError{};
     }
 
-    void SoundController::refuelSourceVoice(const char* path, string voiceName, int loop = 0) {
+    void SoundController::refuelSourceVoice(const char* path, std::string voiceName, int loop = 0) {
 
         HRESULT hr;
 
@@ -370,7 +371,7 @@ namespace PM3D
     }
 
     void SoundController::changeVolume(float volume) {
-        map<string, IXAudio2SourceVoice*>::iterator it;
+        std::map<std::string, IXAudio2SourceVoice*>::iterator it;
         for (it = mSongMap.begin(); it != mSongMap.end(); it++) {
             it->second->SetVolume(volume);
             if (it->first == "bikeMoving") it->second->SetVolume(volume * 0.75f);

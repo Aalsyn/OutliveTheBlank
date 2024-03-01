@@ -18,12 +18,9 @@
 // http://go.microsoft.com/fwlink/?LinkId=248929
 //--------------------------------------------------------------------------------------
 
-#include "stdafx.h"
+#include <stdafx.h>
 #include <dxgiformat.h>
 #include <assert.h>
-#include <algorithm>
-#include <memory>
-
 #include "DDSTextureLoader.h"
 
 #ifndef _WIN32_WINNT_WIN8

@@ -1,6 +1,4 @@
 #pragma once
-#include <DirectXMath.h>
-#include <Texture.h>
 
 using namespace DirectX;
 struct ShadersParams

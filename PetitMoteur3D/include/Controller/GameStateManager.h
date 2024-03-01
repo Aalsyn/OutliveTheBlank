@@ -1,5 +1,4 @@
 #include "Singleton.h"
-#include <vector>
 
 #ifndef gameStateManager_h
 #define gameStateManager_h

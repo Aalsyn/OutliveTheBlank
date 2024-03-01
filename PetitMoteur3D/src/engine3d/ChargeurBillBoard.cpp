@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include <stdafx.h>
 #include "SommetTerrain.h"
 #include <FileHandler.h>
 #include "ChargeurBillBoard.h"

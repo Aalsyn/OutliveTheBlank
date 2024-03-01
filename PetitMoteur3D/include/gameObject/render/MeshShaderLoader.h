@@ -1,6 +1,5 @@
 #pragma once
 
-#include <vector>
 #include "ObjectShaderInstance.h"
 #include "Light.h"
 #include "MaterialData.h"

@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include <stdafx.h>
 #include "cameraController.h"
 #include "MoteurWindows.h"
 #include "Converter.h"

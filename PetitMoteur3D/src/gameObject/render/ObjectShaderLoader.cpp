@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include <stdafx.h>
 #include "ObjectShaderLoader.h"
 #include "ShaderInstanceManager.h"
 #include "MoteurWindows.h"

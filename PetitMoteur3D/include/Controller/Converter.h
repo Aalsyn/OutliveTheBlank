@@ -1,6 +1,3 @@
-#include <DirectXMath.h>
-#include <PxPhysics.h>
-
 #ifndef converter_h
 #define converter_h
 

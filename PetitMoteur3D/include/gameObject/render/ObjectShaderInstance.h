@@ -1,5 +1,4 @@
 #pragma once
-#include "stdafx.h"
 #include "dispositifD3D11.h"
 
 

@@ -1,5 +1,5 @@
 #include "DeadZone.h"
-#include "stdafx.h"
+#include <stdafx.h>
 #include "MoteurWindows.h"
 
 

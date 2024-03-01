@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+#include <stdafx.h>
 #include "dispositifD3D11.h"
 #include "MeshInstanceManager.h"
 

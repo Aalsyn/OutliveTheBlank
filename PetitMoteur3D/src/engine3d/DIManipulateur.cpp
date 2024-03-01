@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include <stdafx.h>
 #include "DIManipulateur.h"
 #include "util.h"
 #include "resource.h"

@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+#include <stdafx.h>
 #include "AfficheurSprite.h"
 #include "resource.h"
 #include "MoteurWindows.h"

@@ -14,7 +14,9 @@
 #ifndef uiController_h
 #define uiController_h
 
-using namespace std;
+using std::unique_ptr;
+using std::wstring;
+
 namespace PM3D{
 	class UIController : public CSingleton <UIController> {
 

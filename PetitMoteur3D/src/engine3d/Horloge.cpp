@@ -1,5 +1,4 @@
-
-#include "stdafx.h"
+#include <stdafx.h>
 #include "Horloge.h"
 
 namespace PM3D

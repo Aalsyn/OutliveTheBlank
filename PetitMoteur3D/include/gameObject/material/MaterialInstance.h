@@ -1,10 +1,8 @@
 #pragma once
-#include <stdafx.h>
-#include <string>
+
 #include "MaterialData.h"
 #include "MeshShaderLoader.h"
 #include "GeometryInitData.h"
-#include <vector>
 namespace PM3D {
 class CMaterialInstance
 {

@@ -6,6 +6,7 @@
 #ifndef gameobject_h
 #define gameobject_h
 
+//TODO : GameObject.cpp
 class GameObject : public CObjectRenderInstance, public ObjectPhysicalInstance //, CMeshInstance
 {
 public:

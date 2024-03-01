@@ -1,7 +1,8 @@
-#include "StdAfx.h"
+#include <stdafx.h>
+
 #include "AfficheurTexte.h"
-#include "util.h"
 #include "dispositifD3D11.h"
+#include "util.h"
 
 namespace PM3D
 {

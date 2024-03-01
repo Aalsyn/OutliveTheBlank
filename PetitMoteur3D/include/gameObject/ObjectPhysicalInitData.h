@@ -1,11 +1,8 @@
 #pragma once
-#include <string>
-#include <ctype.h>
-#include "PxPhysicsAPI.h"
-#include "PxSimulationEventCallback.h"
+#include <stdafx.h>
 
 using namespace physx;
-using namespace std;
+using std::wstring;
 
 enum TypeGeo {
 	eSPHERE, // 0 RAYON

@@ -1,5 +1,5 @@
+#include <stdafx.h>
 #include "TriggerZoneTp.h"
-#include "stdafx.h"
 #include "MoteurWindows.h"
 
 void TriggerZoneTp::onTrigger(PxActor*)

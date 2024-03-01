@@ -1,3 +1,5 @@
+#include <stdafx.h>
+
 #include "MaterialInstance.h"
 #include "MoteurWindows.h"
 

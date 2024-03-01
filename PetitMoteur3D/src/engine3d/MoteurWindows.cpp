@@ -1,10 +1,9 @@
-#include "StdAfx.h"
+#include <stdafx.h>
 #include "resource.h"
 #include "MoteurWindows.h"
 #include "FileHandler.h"
 #include "TerrainHandler.h"
 #include "ChargeurOBJ.h"
-#include "PxPhysicsAPI.h"
 #include "ObjectPhysicalInstance.h"
 #include "ObjectPhysicalInitData.h"
 

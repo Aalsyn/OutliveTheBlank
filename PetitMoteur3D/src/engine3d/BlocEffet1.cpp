@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+#include <stdafx.h>
 
 #include "BlocEffet1.h"
 #include "sommetbloc.h"

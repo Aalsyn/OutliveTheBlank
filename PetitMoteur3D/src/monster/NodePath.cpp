@@ -1,7 +1,8 @@
+#include <stdafx.h>
 #include "NodePath.h"
 
 using namespace physx;
-using namespace std;
+using std::vector;
 
 class indexOutOfBound {};
 
@@ -40,7 +41,7 @@ const PathNode& SubPath::getNode(const int& index) {
 	throw indexOutOfBound();
 }
 
-const int& SubPath::getSize() {
+const int SubPath::getSize() {
 	return static_cast<int>(nodes.size());
 };
 
@@ -117,7 +118,7 @@ void Path::advanceNextNode(const int& nextSubPath) {
 	else if (currentPath + 1 < paths.size()) {
 		//next node is in next path
 		currentPath++;
-		currentSubPath = min(static_cast<int>(paths[currentPath].size() - 1), nextSubPath);
+		currentSubPath = std::min(static_cast<int>(paths[currentPath].size() - 1), nextSubPath);
 		currentNode = 0;
 	}
 	else {

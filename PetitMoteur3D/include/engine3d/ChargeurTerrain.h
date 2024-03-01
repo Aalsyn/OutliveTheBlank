@@ -4,10 +4,7 @@
 #define CHARGEURTERRAIN_H
 
 #include "chargeur.h"
-#include <string>
-#include <map>
-#include "opencv2/opencv.hpp"
-#include <MaterialData.h>
+#include "MaterialData.h"
 
 
 using namespace cv;
